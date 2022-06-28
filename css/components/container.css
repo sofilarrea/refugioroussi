@@ -1,0 +1,18 @@
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+@media (max-width: 720px) {
+/* Para una pantalla < 720px, se leerá éste css*/
+ .container {
+	width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	/*Para una pantalla <500. se leerá éste css */
+	.container {
+		width: 300px;
+	}
+}
